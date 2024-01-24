@@ -1,0 +1,8 @@
+/* styles/global.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #00FF00, #00AA00); /* Green radial gradient */
+    font-family: 'Arial', sans-serif; /* Add your preferred font-family */
+  }
