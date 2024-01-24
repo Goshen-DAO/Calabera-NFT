@@ -1,8 +1,4 @@
-/** Change these values to configure the application for your own use. **/
 
-// Your smart contract address (available on the thirdweb dashboard)
-// For existing collections: import your existing contracts on the dashboard: https://thirdweb.com/dashboard
-export const contractConst = "0x254319aF63a4C4e695d0EdC41d81f8c55AE2550A";
 
 // The name of the chain your contract is deployed to.
 // Refer to README.md on how to specify the chain name.
@@ -17,8 +13,3 @@ export const primaryColorConst = "orange";
 
 // Choose between "light" and "dark" mode
 export const themeConst = "dark";
-
-// Gasless relayer configuration options
-export const relayerUrlConst = ""; // OpenZeppelin relayer URL
-export const biconomyApiKeyConst = ""; // Biconomy API key
-export const biconomyApiIdConst = ""; // Biconomy API ID

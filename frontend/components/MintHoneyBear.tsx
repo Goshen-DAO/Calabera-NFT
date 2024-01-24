@@ -3,7 +3,6 @@ import {
     detectContractFeature,
     useActiveClaimConditionForWallet,
     useAddress,
-    useClaimConditions,
     useClaimedNFTSupply,
     useClaimerProofs,
     useClaimIneligibilityReasons,
