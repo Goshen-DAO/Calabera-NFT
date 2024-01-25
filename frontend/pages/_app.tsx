@@ -15,6 +15,7 @@ import {
 import { ChakraProvider } from "@chakra-ui/react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import ScrollableAnnouncement from "../components/ScrollableAnnouncement";
 import "../styles/global.css";
 
 const clientAPI = process.env.THIRDWEB_API_KEY as string;
@@ -107,6 +108,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           {/* Web Manifest */}
           <link rel="manifest" href="/site.webmanifest" />
         </Head>
+        <ScrollableAnnouncement />
         <NavBar />
         <Component {...pageProps} />
         <Footer />
