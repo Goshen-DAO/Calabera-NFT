@@ -111,6 +111,13 @@ export function Inventory({ nft }: Props) {
   };
 
   const handleEquipSubmit = () => {
+    toast({
+      title: "Transaction for equipping has been submitted.",
+      description: "Note: We aim for the contract to permit the transfer of Honey Bears Tools only, not the entire NFT in your wallet. Metamask issues a misleading warning; consider using Rabby wallet for a safer experience.",
+      status: "info",
+      duration: 5000,
+      isClosable: true,
+    });
     console.log("Transaction for equipping has been submitted.");
   };
 
