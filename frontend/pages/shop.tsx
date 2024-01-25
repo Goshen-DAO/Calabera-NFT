@@ -30,7 +30,7 @@ export default function Shop() {
         <Heading mt={{ base: 4, md: 0 }}>Shop</Heading>
       </Flex>
       <Text mt={4}>
-        Purchase tools with $BLCRSTL to increase your earnings.
+        Purchase tools with $NCTRN to increase your earnings.
       </Text>
       {!nfts ? (
         <Flex h={"50vh"} justifyContent={"center"} alignItems={"center"}>
