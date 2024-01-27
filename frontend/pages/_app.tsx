@@ -88,7 +88,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           <title>Honey Bears Farmland- #1 On-chain Play-And-Earn Game on Berachain </title>
           <meta
             name="description"
-            content="A cool digital world where little goblins use special tools like Pickaxes to dig for treasures powered by the magical Blue Crystal! Each unique Goblin NFT is like a ticket to join the fun. Collect them, explore the mines, and earn awesome rewards. It's like having your own digital mining adventure with magical goblins!"
+            content="An engaging NFT idle game that invites players into the charming world of Honey Bears and their sweet journey of farming Nectarine. In this delightful virtual farmland, players take on the role of Honey Bears, adorable character with a passion for farming nectarine."
           />
           <meta property="og:image" content="/BongBear 57.png" />
           <meta name="twitter:card" content="/BongBear 57.png" />
